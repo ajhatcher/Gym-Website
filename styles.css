@@ -78,7 +78,6 @@ img{
     width:auto;
 }
 
-h1{
-    display:flex;
-    justify-content: center;
+div.video{
+    text-align: center;
 }
