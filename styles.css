@@ -67,7 +67,9 @@ footer a{
     color: white;
     padding: 50px;
     height: auto;
+    width: auto;
     font-size: 18px;
+    margin-top: auto;
 }
 footer a:hover{
     background-color: dimgray;
@@ -79,5 +81,29 @@ img{
 }
 
 div.video{
-    text-align: center;
+
+   text-align: center;
+
+   max-width: fit-content;
+   margin-left: auto;
+   margin-right: auto;
+
+}
+
+
+div.sideText{
+    
+    box-sizing: border-box;
+    max-height:600px;
+    height: 600px;
+    width:fit-content;
+    margin-top: 20PX;
+    margin-left: 80px;
+    padding:35px;
+    font-size:1vw;
+    float:left;
+    display: flex;
+    flex-direction: column;
+    flex-shrink:3;
+
 }
