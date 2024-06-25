@@ -8,7 +8,6 @@ body {
 }
 
 .topnav{
-
     background-color: rgb(57, 57, 57);
     overflow: hidden;
     padding: 0px;
@@ -20,7 +19,13 @@ body {
 
 }
 
-.topnav a{
+.top-container{
+    padding: 10px;
+    width: 550px;
+    display: flex;
+}
+
+.top-container a{
     
     color: white;
     padding: 10px;
@@ -30,8 +35,10 @@ body {
 
 }
 
-.topnav a:hover{
+.top-container a:hover{
     background-color: dimgray;
+    flex:0.8 1 0;
+    text-align: center;
 
 }
 
